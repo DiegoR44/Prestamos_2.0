@@ -92,7 +92,7 @@ namespace ProyectoPrestamo.Formularios
 
         private void btnborrar_Click(object sender, EventArgs e)
         {
-            limpiar(true);
+           
         }
 
         private void btnpagar_Click(object sender, EventArgs e)
@@ -253,6 +253,11 @@ namespace ProyectoPrestamo.Formularios
 
             txtnrodocumento.Enabled = false;
             txtnrodocumento.Text = "";
+        }
+
+        private void btnborrar_Click_1(object sender, EventArgs e)
+        {
+            limpiar(true);
         }
     }
 }

@@ -228,6 +228,7 @@ namespace ProyectoPrestamo.Formularios
                 return;
             }
 
+            //aqui validams que no se puedan modificar reportes o cuentas que esten aun por pagarse
             if (lblestadoprestamo.Text != "EN CURSO")
             {
                 MessageBox.Show("Esta opción no está habilitado para préstamos con estado \"" + lblestadoprestamo.Text + "\"", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);

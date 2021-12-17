@@ -141,7 +141,6 @@
             this.txtnumerocuotas = new Bunifu.UI.WinForms.BunifuTextBox();
             this.txtinteres = new Bunifu.UI.WinForms.BunifuTextBox();
             this.txtmontoprestamo = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
@@ -161,7 +160,6 @@
             this.txtclientedocumento = new Bunifu.UI.WinForms.BunifuTextBox();
             this.txtclientetipodocumento = new Bunifu.UI.WinForms.BunifuTextBox();
             this.txtclientenombre = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.label13 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -173,6 +171,12 @@
             this.bunifuPanel5 = new Bunifu.UI.WinForms.BunifuPanel();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvdata)).BeginInit();
             this.groupBox5.SuspendLayout();
             this.bunifuPanel1.SuspendLayout();
@@ -190,7 +194,7 @@
             this.dgvdata.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(2);
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
@@ -310,7 +314,7 @@
             this.btnmodificar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnmodificar.IconSize = 45;
             this.btnmodificar.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnmodificar.Location = new System.Drawing.Point(584, 548);
+            this.btnmodificar.Location = new System.Drawing.Point(610, 486);
             this.btnmodificar.Name = "btnmodificar";
             this.btnmodificar.Size = new System.Drawing.Size(66, 67);
             this.btnmodificar.TabIndex = 99;
@@ -328,7 +332,7 @@
             this.btncancelar.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btncancelar.IconSize = 50;
             this.btncancelar.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btncancelar.Location = new System.Drawing.Point(656, 548);
+            this.btncancelar.Location = new System.Drawing.Point(694, 486);
             this.btncancelar.Name = "btncancelar";
             this.btncancelar.Size = new System.Drawing.Size(70, 67);
             this.btncancelar.TabIndex = 95;
@@ -346,7 +350,7 @@
             this.btnvolver.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnvolver.IconSize = 50;
             this.btnvolver.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnvolver.Location = new System.Drawing.Point(732, 548);
+            this.btnvolver.Location = new System.Drawing.Point(799, 486);
             this.btnvolver.Name = "btnvolver";
             this.btnvolver.Size = new System.Drawing.Size(72, 67);
             this.btnvolver.TabIndex = 94;
@@ -364,7 +368,7 @@
             this.btndescargarresumen.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btndescargarresumen.IconSize = 45;
             this.btndescargarresumen.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btndescargarresumen.Location = new System.Drawing.Point(510, 548);
+            this.btndescargarresumen.Location = new System.Drawing.Point(528, 486);
             this.btndescargarresumen.Name = "btndescargarresumen";
             this.btndescargarresumen.Size = new System.Drawing.Size(68, 67);
             this.btndescargarresumen.TabIndex = 93;
@@ -450,7 +454,7 @@
             stateProperties4.ForeColor = System.Drawing.Color.Empty;
             stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtdocumentocliente.OnIdleState = stateProperties4;
-            this.txtdocumentocliente.Padding = new System.Windows.Forms.Padding(3);
+            this.txtdocumentocliente.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.txtdocumentocliente.PasswordChar = '\0';
             this.txtdocumentocliente.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtdocumentocliente.PlaceholderText = "Nº Operación:";
@@ -460,7 +464,7 @@
             this.txtdocumentocliente.SelectionLength = 0;
             this.txtdocumentocliente.SelectionStart = 0;
             this.txtdocumentocliente.ShortcutsEnabled = true;
-            this.txtdocumentocliente.Size = new System.Drawing.Size(129, 27);
+            this.txtdocumentocliente.Size = new System.Drawing.Size(129, 39);
             this.txtdocumentocliente.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtdocumentocliente.TabIndex = 109;
             this.txtdocumentocliente.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -525,7 +529,7 @@
             stateProperties8.ForeColor = System.Drawing.Color.Empty;
             stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtnumerooperacion.OnIdleState = stateProperties8;
-            this.txtnumerooperacion.Padding = new System.Windows.Forms.Padding(3);
+            this.txtnumerooperacion.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.txtnumerooperacion.PasswordChar = '\0';
             this.txtnumerooperacion.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtnumerooperacion.PlaceholderText = "Nº Operación:";
@@ -535,7 +539,7 @@
             this.txtnumerooperacion.SelectionLength = 0;
             this.txtnumerooperacion.SelectionStart = 0;
             this.txtnumerooperacion.ShortcutsEnabled = true;
-            this.txtnumerooperacion.Size = new System.Drawing.Size(140, 27);
+            this.txtnumerooperacion.Size = new System.Drawing.Size(140, 39);
             this.txtnumerooperacion.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtnumerooperacion.TabIndex = 108;
             this.txtnumerooperacion.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -733,7 +737,7 @@
             this.btnclausulas.IdleIconLeftImage = null;
             this.btnclausulas.IdleIconRightImage = null;
             this.btnclausulas.IndicateFocus = false;
-            this.btnclausulas.Location = new System.Drawing.Point(71, 201);
+            this.btnclausulas.Location = new System.Drawing.Point(130, 201);
             this.btnclausulas.Name = "btnclausulas";
             this.btnclausulas.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(116)))), ((int)(((byte)(109)))));
             this.btnclausulas.OnDisabledState.BorderRadius = 30;
@@ -767,7 +771,7 @@
             this.btnclausulas.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnclausulas.OnPressedState.IconLeftImage = null;
             this.btnclausulas.OnPressedState.IconRightImage = null;
-            this.btnclausulas.Size = new System.Drawing.Size(309, 40);
+            this.btnclausulas.Size = new System.Drawing.Size(146, 40);
             this.btnclausulas.TabIndex = 130;
             this.btnclausulas.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnclausulas.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -830,7 +834,7 @@
             stateProperties12.ForeColor = System.Drawing.Color.Empty;
             stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtmontototalpagar.OnIdleState = stateProperties12;
-            this.txtmontototalpagar.Padding = new System.Windows.Forms.Padding(3);
+            this.txtmontototalpagar.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.txtmontototalpagar.PasswordChar = '\0';
             this.txtmontototalpagar.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtmontototalpagar.PlaceholderText = "Dirección";
@@ -840,7 +844,7 @@
             this.txtmontototalpagar.SelectionLength = 0;
             this.txtmontototalpagar.SelectionStart = 0;
             this.txtmontototalpagar.ShortcutsEnabled = true;
-            this.txtmontototalpagar.Size = new System.Drawing.Size(109, 27);
+            this.txtmontototalpagar.Size = new System.Drawing.Size(116, 27);
             this.txtmontototalpagar.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtmontototalpagar.TabIndex = 129;
             this.txtmontototalpagar.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -905,7 +909,7 @@
             stateProperties16.ForeColor = System.Drawing.Color.Empty;
             stateProperties16.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txttotalinteres.OnIdleState = stateProperties16;
-            this.txttotalinteres.Padding = new System.Windows.Forms.Padding(3);
+            this.txttotalinteres.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.txttotalinteres.PasswordChar = '\0';
             this.txttotalinteres.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txttotalinteres.PlaceholderText = "Dirección";
@@ -915,7 +919,7 @@
             this.txttotalinteres.SelectionLength = 0;
             this.txttotalinteres.SelectionStart = 0;
             this.txttotalinteres.ShortcutsEnabled = true;
-            this.txttotalinteres.Size = new System.Drawing.Size(109, 27);
+            this.txttotalinteres.Size = new System.Drawing.Size(116, 27);
             this.txttotalinteres.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txttotalinteres.TabIndex = 128;
             this.txttotalinteres.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -980,7 +984,7 @@
             stateProperties20.ForeColor = System.Drawing.Color.Empty;
             stateProperties20.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtmontoxcuota.OnIdleState = stateProperties20;
-            this.txtmontoxcuota.Padding = new System.Windows.Forms.Padding(3);
+            this.txtmontoxcuota.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.txtmontoxcuota.PasswordChar = '\0';
             this.txtmontoxcuota.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtmontoxcuota.PlaceholderText = "Dirección";
@@ -990,7 +994,7 @@
             this.txtmontoxcuota.SelectionLength = 0;
             this.txtmontoxcuota.SelectionStart = 0;
             this.txtmontoxcuota.ShortcutsEnabled = true;
-            this.txtmontoxcuota.Size = new System.Drawing.Size(140, 27);
+            this.txtmontoxcuota.Size = new System.Drawing.Size(116, 27);
             this.txtmontoxcuota.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtmontoxcuota.TabIndex = 127;
             this.txtmontoxcuota.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1055,7 +1059,7 @@
             stateProperties24.ForeColor = System.Drawing.Color.Empty;
             stateProperties24.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtfechainicio.OnIdleState = stateProperties24;
-            this.txtfechainicio.Padding = new System.Windows.Forms.Padding(3);
+            this.txtfechainicio.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.txtfechainicio.PasswordChar = '\0';
             this.txtfechainicio.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtfechainicio.PlaceholderText = "Fecha Inicio";
@@ -1065,7 +1069,7 @@
             this.txtfechainicio.SelectionLength = 0;
             this.txtfechainicio.SelectionStart = 0;
             this.txtfechainicio.ShortcutsEnabled = true;
-            this.txtfechainicio.Size = new System.Drawing.Size(111, 27);
+            this.txtfechainicio.Size = new System.Drawing.Size(116, 27);
             this.txtfechainicio.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtfechainicio.TabIndex = 125;
             this.txtfechainicio.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1130,7 +1134,7 @@
             stateProperties28.ForeColor = System.Drawing.Color.Empty;
             stateProperties28.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txttipomoneda.OnIdleState = stateProperties28;
-            this.txttipomoneda.Padding = new System.Windows.Forms.Padding(3);
+            this.txttipomoneda.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.txttipomoneda.PasswordChar = '\0';
             this.txttipomoneda.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txttipomoneda.PlaceholderText = "Tipo de Moneda";
@@ -1140,7 +1144,7 @@
             this.txttipomoneda.SelectionLength = 0;
             this.txttipomoneda.SelectionStart = 0;
             this.txttipomoneda.ShortcutsEnabled = true;
-            this.txttipomoneda.Size = new System.Drawing.Size(111, 27);
+            this.txttipomoneda.Size = new System.Drawing.Size(116, 27);
             this.txttipomoneda.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txttipomoneda.TabIndex = 124;
             this.txttipomoneda.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1205,7 +1209,7 @@
             stateProperties32.ForeColor = System.Drawing.Color.Empty;
             stateProperties32.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtformapago.OnIdleState = stateProperties32;
-            this.txtformapago.Padding = new System.Windows.Forms.Padding(3);
+            this.txtformapago.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.txtformapago.PasswordChar = '\0';
             this.txtformapago.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtformapago.PlaceholderText = "Forma de Pago";
@@ -1215,7 +1219,7 @@
             this.txtformapago.SelectionLength = 0;
             this.txtformapago.SelectionStart = 0;
             this.txtformapago.ShortcutsEnabled = true;
-            this.txtformapago.Size = new System.Drawing.Size(139, 27);
+            this.txtformapago.Size = new System.Drawing.Size(116, 27);
             this.txtformapago.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtformapago.TabIndex = 123;
             this.txtformapago.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1280,7 +1284,7 @@
             stateProperties36.ForeColor = System.Drawing.Color.Empty;
             stateProperties36.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtnumerocuotas.OnIdleState = stateProperties36;
-            this.txtnumerocuotas.Padding = new System.Windows.Forms.Padding(3);
+            this.txtnumerocuotas.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.txtnumerocuotas.PasswordChar = '\0';
             this.txtnumerocuotas.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtnumerocuotas.PlaceholderText = "N° Cuotas";
@@ -1290,7 +1294,7 @@
             this.txtnumerocuotas.SelectionLength = 0;
             this.txtnumerocuotas.SelectionStart = 0;
             this.txtnumerocuotas.ShortcutsEnabled = true;
-            this.txtnumerocuotas.Size = new System.Drawing.Size(111, 27);
+            this.txtnumerocuotas.Size = new System.Drawing.Size(116, 27);
             this.txtnumerocuotas.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtnumerocuotas.TabIndex = 122;
             this.txtnumerocuotas.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1355,7 +1359,7 @@
             stateProperties40.ForeColor = System.Drawing.Color.Empty;
             stateProperties40.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtinteres.OnIdleState = stateProperties40;
-            this.txtinteres.Padding = new System.Windows.Forms.Padding(3);
+            this.txtinteres.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.txtinteres.PasswordChar = '\0';
             this.txtinteres.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtinteres.PlaceholderText = "% Interes";
@@ -1365,7 +1369,7 @@
             this.txtinteres.SelectionLength = 0;
             this.txtinteres.SelectionStart = 0;
             this.txtinteres.ShortcutsEnabled = true;
-            this.txtinteres.Size = new System.Drawing.Size(111, 27);
+            this.txtinteres.Size = new System.Drawing.Size(116, 27);
             this.txtinteres.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtinteres.TabIndex = 121;
             this.txtinteres.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1430,7 +1434,7 @@
             stateProperties44.ForeColor = System.Drawing.Color.Empty;
             stateProperties44.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtmontoprestamo.OnIdleState = stateProperties44;
-            this.txtmontoprestamo.Padding = new System.Windows.Forms.Padding(3);
+            this.txtmontoprestamo.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.txtmontoprestamo.PasswordChar = '\0';
             this.txtmontoprestamo.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtmontoprestamo.PlaceholderText = "Monto Prestamo";
@@ -1440,7 +1444,7 @@
             this.txtmontoprestamo.SelectionLength = 0;
             this.txtmontoprestamo.SelectionStart = 0;
             this.txtmontoprestamo.ShortcutsEnabled = true;
-            this.txtmontoprestamo.Size = new System.Drawing.Size(139, 27);
+            this.txtmontoprestamo.Size = new System.Drawing.Size(116, 27);
             this.txtmontoprestamo.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtmontoprestamo.TabIndex = 120;
             this.txtmontoprestamo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1451,23 +1455,15 @@
             this.txtmontoprestamo.UseSystemPasswordChar = false;
             this.txtmontoprestamo.WordWrap = true;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(211, 185);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 13);
-            this.label1.TabIndex = 112;
-            this.label1.Text = "INFORMACION DEL PRESTAMO";
-            // 
             // label25
             // 
             this.label25.AutoSize = true;
             this.label25.BackColor = System.Drawing.Color.White;
+            this.label25.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.label25.Location = new System.Drawing.Point(294, 129);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(107, 13);
+            this.label25.Size = new System.Drawing.Size(116, 13);
             this.label25.TabIndex = 101;
             this.label25.Text = "Monto Total a Pagar:";
             // 
@@ -1475,9 +1471,11 @@
             // 
             this.label24.AutoSize = true;
             this.label24.BackColor = System.Drawing.Color.White;
+            this.label24.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.label24.Location = new System.Drawing.Point(160, 129);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(80, 13);
+            this.label24.Size = new System.Drawing.Size(84, 13);
             this.label24.TabIndex = 100;
             this.label24.Text = "Total Intereses:";
             // 
@@ -1485,9 +1483,11 @@
             // 
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.Color.White;
+            this.label16.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.label16.Location = new System.Drawing.Point(18, 129);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(89, 13);
+            this.label16.Size = new System.Drawing.Size(101, 13);
             this.label16.TabIndex = 99;
             this.label16.Text = "Monto por Cuota:";
             // 
@@ -1514,9 +1514,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.White;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.label4.Location = new System.Drawing.Point(294, 66);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 13);
+            this.label4.Size = new System.Drawing.Size(71, 13);
             this.label4.TabIndex = 96;
             this.label4.Text = "Fecha Inicio:";
             // 
@@ -1524,9 +1526,11 @@
             // 
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.White;
+            this.label14.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.label14.Location = new System.Drawing.Point(160, 65);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(73, 13);
+            this.label14.Size = new System.Drawing.Size(80, 13);
             this.label14.TabIndex = 94;
             this.label14.Text = "Tipo Moneda:";
             // 
@@ -1534,9 +1538,11 @@
             // 
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.White;
+            this.label15.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.label15.Location = new System.Drawing.Point(18, 65);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(82, 13);
+            this.label15.Size = new System.Drawing.Size(89, 13);
             this.label15.TabIndex = 93;
             this.label15.Text = "Forma de Pago:";
             // 
@@ -1544,9 +1550,11 @@
             // 
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.Color.White;
+            this.label17.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.label17.Location = new System.Drawing.Point(294, 22);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(58, 13);
+            this.label17.Size = new System.Drawing.Size(62, 13);
             this.label17.TabIndex = 92;
             this.label17.Text = "N° Cuotas:";
             // 
@@ -1554,10 +1562,11 @@
             // 
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.Color.White;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.label18.Location = new System.Drawing.Point(160, 22);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(57, 13);
+            this.label18.Size = new System.Drawing.Size(60, 13);
             this.label18.TabIndex = 95;
             this.label18.Text = "Interes     :";
             // 
@@ -1565,9 +1574,11 @@
             // 
             this.label22.AutoSize = true;
             this.label22.BackColor = System.Drawing.Color.White;
+            this.label22.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.label22.Location = new System.Drawing.Point(18, 22);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(87, 13);
+            this.label22.Size = new System.Drawing.Size(98, 13);
             this.label22.TabIndex = 91;
             this.label22.Text = "Monto Prestamo:";
             // 
@@ -1654,7 +1665,7 @@
             stateProperties48.ForeColor = System.Drawing.Color.Empty;
             stateProperties48.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtclientetelefono.OnIdleState = stateProperties48;
-            this.txtclientetelefono.Padding = new System.Windows.Forms.Padding(3);
+            this.txtclientetelefono.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.txtclientetelefono.PasswordChar = '\0';
             this.txtclientetelefono.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtclientetelefono.PlaceholderText = "Numero Telefono";
@@ -1664,7 +1675,7 @@
             this.txtclientetelefono.SelectionLength = 0;
             this.txtclientetelefono.SelectionStart = 0;
             this.txtclientetelefono.ShortcutsEnabled = true;
-            this.txtclientetelefono.Size = new System.Drawing.Size(140, 27);
+            this.txtclientetelefono.Size = new System.Drawing.Size(116, 27);
             this.txtclientetelefono.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtclientetelefono.TabIndex = 119;
             this.txtclientetelefono.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1729,7 +1740,7 @@
             stateProperties52.ForeColor = System.Drawing.Color.Empty;
             stateProperties52.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtclientecorreo.OnIdleState = stateProperties52;
-            this.txtclientecorreo.Padding = new System.Windows.Forms.Padding(3);
+            this.txtclientecorreo.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.txtclientecorreo.PasswordChar = '\0';
             this.txtclientecorreo.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtclientecorreo.PlaceholderText = "Correo Electronico";
@@ -1739,7 +1750,7 @@
             this.txtclientecorreo.SelectionLength = 0;
             this.txtclientecorreo.SelectionStart = 0;
             this.txtclientecorreo.ShortcutsEnabled = true;
-            this.txtclientecorreo.Size = new System.Drawing.Size(140, 27);
+            this.txtclientecorreo.Size = new System.Drawing.Size(116, 27);
             this.txtclientecorreo.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtclientecorreo.TabIndex = 118;
             this.txtclientecorreo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1804,7 +1815,7 @@
             stateProperties56.ForeColor = System.Drawing.Color.Empty;
             stateProperties56.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtclienteciudad.OnIdleState = stateProperties56;
-            this.txtclienteciudad.Padding = new System.Windows.Forms.Padding(3);
+            this.txtclienteciudad.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.txtclienteciudad.PasswordChar = '\0';
             this.txtclienteciudad.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtclienteciudad.PlaceholderText = "Ciudad";
@@ -1814,7 +1825,7 @@
             this.txtclienteciudad.SelectionLength = 0;
             this.txtclienteciudad.SelectionStart = 0;
             this.txtclienteciudad.ShortcutsEnabled = true;
-            this.txtclienteciudad.Size = new System.Drawing.Size(140, 27);
+            this.txtclienteciudad.Size = new System.Drawing.Size(116, 27);
             this.txtclienteciudad.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtclienteciudad.TabIndex = 117;
             this.txtclienteciudad.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1879,7 +1890,7 @@
             stateProperties60.ForeColor = System.Drawing.Color.Empty;
             stateProperties60.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtclientedireccion.OnIdleState = stateProperties60;
-            this.txtclientedireccion.Padding = new System.Windows.Forms.Padding(3);
+            this.txtclientedireccion.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.txtclientedireccion.PasswordChar = '\0';
             this.txtclientedireccion.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtclientedireccion.PlaceholderText = "Dirección";
@@ -1889,7 +1900,7 @@
             this.txtclientedireccion.SelectionLength = 0;
             this.txtclientedireccion.SelectionStart = 0;
             this.txtclientedireccion.ShortcutsEnabled = true;
-            this.txtclientedireccion.Size = new System.Drawing.Size(140, 27);
+            this.txtclientedireccion.Size = new System.Drawing.Size(116, 27);
             this.txtclientedireccion.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtclientedireccion.TabIndex = 116;
             this.txtclientedireccion.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1954,7 +1965,7 @@
             stateProperties64.ForeColor = System.Drawing.Color.Empty;
             stateProperties64.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtclientedocumento.OnIdleState = stateProperties64;
-            this.txtclientedocumento.Padding = new System.Windows.Forms.Padding(3);
+            this.txtclientedocumento.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.txtclientedocumento.PasswordChar = '\0';
             this.txtclientedocumento.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtclientedocumento.PlaceholderText = "Número Documento";
@@ -1964,7 +1975,7 @@
             this.txtclientedocumento.SelectionLength = 0;
             this.txtclientedocumento.SelectionStart = 0;
             this.txtclientedocumento.ShortcutsEnabled = true;
-            this.txtclientedocumento.Size = new System.Drawing.Size(140, 27);
+            this.txtclientedocumento.Size = new System.Drawing.Size(116, 27);
             this.txtclientedocumento.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtclientedocumento.TabIndex = 115;
             this.txtclientedocumento.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -2029,7 +2040,7 @@
             stateProperties68.ForeColor = System.Drawing.Color.Empty;
             stateProperties68.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtclientetipodocumento.OnIdleState = stateProperties68;
-            this.txtclientetipodocumento.Padding = new System.Windows.Forms.Padding(3);
+            this.txtclientetipodocumento.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.txtclientetipodocumento.PasswordChar = '\0';
             this.txtclientetipodocumento.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtclientetipodocumento.PlaceholderText = "Tipo Documento";
@@ -2039,7 +2050,7 @@
             this.txtclientetipodocumento.SelectionLength = 0;
             this.txtclientetipodocumento.SelectionStart = 0;
             this.txtclientetipodocumento.ShortcutsEnabled = true;
-            this.txtclientetipodocumento.Size = new System.Drawing.Size(140, 27);
+            this.txtclientetipodocumento.Size = new System.Drawing.Size(116, 27);
             this.txtclientetipodocumento.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtclientetipodocumento.TabIndex = 114;
             this.txtclientetipodocumento.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -2104,7 +2115,7 @@
             stateProperties72.ForeColor = System.Drawing.Color.Empty;
             stateProperties72.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtclientenombre.OnIdleState = stateProperties72;
-            this.txtclientenombre.Padding = new System.Windows.Forms.Padding(3);
+            this.txtclientenombre.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.txtclientenombre.PasswordChar = '\0';
             this.txtclientenombre.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtclientenombre.PlaceholderText = "Nombre Completo";
@@ -2114,7 +2125,7 @@
             this.txtclientenombre.SelectionLength = 0;
             this.txtclientenombre.SelectionStart = 0;
             this.txtclientenombre.ShortcutsEnabled = true;
-            this.txtclientenombre.Size = new System.Drawing.Size(140, 27);
+            this.txtclientenombre.Size = new System.Drawing.Size(116, 27);
             this.txtclientenombre.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtclientenombre.TabIndex = 110;
             this.txtclientenombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -2125,23 +2136,15 @@
             this.txtclientenombre.UseSystemPasswordChar = false;
             this.txtclientenombre.WordWrap = true;
             // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(48, 9);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(112, 13);
-            this.label13.TabIndex = 113;
-            this.label13.Text = "informacion del cliente";
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(216, 77);
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.label10.Location = new System.Drawing.Point(178, 77);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(43, 13);
+            this.label10.Size = new System.Drawing.Size(47, 13);
             this.label10.TabIndex = 65;
             this.label10.Text = "Ciudad:";
             // 
@@ -2149,9 +2152,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.label3.Location = new System.Drawing.Point(12, 77);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 13);
+            this.label3.Size = new System.Drawing.Size(58, 13);
             this.label3.TabIndex = 63;
             this.label3.Text = "Dirección:";
             // 
@@ -2159,9 +2164,11 @@
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.White;
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.label9.Location = new System.Drawing.Point(332, 77);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(97, 13);
+            this.label9.Size = new System.Drawing.Size(105, 13);
             this.label9.TabIndex = 52;
             this.label9.Text = "Correo Electronico:";
             // 
@@ -2169,9 +2176,11 @@
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.White;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.label8.Location = new System.Drawing.Point(12, 124);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(135, 13);
+            this.label8.Size = new System.Drawing.Size(148, 13);
             this.label8.TabIndex = 53;
             this.label8.Text = "Numero Telefono / Celular:";
             // 
@@ -2179,9 +2188,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.White;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.label7.Location = new System.Drawing.Point(332, 31);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(105, 13);
+            this.label7.Size = new System.Drawing.Size(117, 13);
             this.label7.TabIndex = 54;
             this.label7.Text = "Número Documento:";
             // 
@@ -2189,9 +2200,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(214, 31);
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.label6.Location = new System.Drawing.Point(178, 25);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(89, 13);
+            this.label6.Size = new System.Drawing.Size(97, 13);
             this.label6.TabIndex = 55;
             this.label6.Text = "Tipo Documento:";
             // 
@@ -2199,9 +2212,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.White;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.label5.Location = new System.Drawing.Point(12, 31);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(94, 13);
+            this.label5.Size = new System.Drawing.Size(107, 13);
             this.label5.TabIndex = 56;
             this.label5.Text = "Nombre Completo:";
             // 
@@ -2266,11 +2281,83 @@
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.White;
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label19.Location = new System.Drawing.Point(525, 557);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(70, 13);
+            this.label19.TabIndex = 133;
+            this.label19.Text = "Información";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label2.Location = new System.Drawing.Point(607, 557);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(45, 13);
+            this.label2.TabIndex = 134;
+            this.label2.Text = "Edición";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.White;
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label20.Location = new System.Drawing.Point(676, 557);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(103, 13);
+            this.label20.TabIndex = 135;
+            this.label20.Text = "Cancelar Prestamo";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.BackColor = System.Drawing.Color.White;
+            this.label21.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label21.Location = new System.Drawing.Point(796, 556);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(103, 13);
+            this.label21.TabIndex = 136;
+            this.label21.Text = "Cancelar Prestamo";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(48, 9);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(112, 13);
+            this.label13.TabIndex = 113;
+            this.label13.Text = "informacion del cliente";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(271, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(169, 13);
+            this.label1.TabIndex = 112;
+            this.label1.Text = "INFORMACION DEL PRESTAMO";
+            // 
             // frmHistorialPrestamo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1087, 649);
+            this.ClientSize = new System.Drawing.Size(1106, 580);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label19);
             this.Controls.Add(this.bunifuPanel5);
             this.Controls.Add(this.bunifuPanel4);
             this.Controls.Add(this.bunifuPanel3);
@@ -2298,6 +2385,7 @@
             this.bunifuPanel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -2327,7 +2415,6 @@
         private System.Windows.Forms.RadioButton rbnumerooperacion;
         private FontAwesome.Sharp.IconButton btnbuscar;
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label16;
@@ -2349,7 +2436,6 @@
         private Bunifu.UI.WinForms.BunifuTextBox txtclientedocumento;
         private Bunifu.UI.WinForms.BunifuTextBox txtclientetipodocumento;
         private Bunifu.UI.WinForms.BunifuTextBox txtclientenombre;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label9;
@@ -2371,5 +2457,11 @@
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel5;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label13;
     }
 }
